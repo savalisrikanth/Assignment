@@ -1,0 +1,13 @@
+string=('The quick Brow Fox')
+count1=0
+count2=0
+for i in string:
+      if(i.isupper()):
+            count1=count1+1
+      elif(i.islower()):
+            count2=count2+1
+print("No. of Upper case characters:")
+print(count1)
+print("No. of lower case characters:")
+print(count2)
+
